@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abac88d0-6278-44c1-af8b-996926af3d95" name="Default Changelist" comment="book files added">
-      <change afterPath="$PROJECT_DIR$/Models/db.py" afterDir="false" />
+    <list default="true" id="abac88d0-6278-44c1-af8b-996926af3d95" name="Default Changelist" comment="database initialization added">
+      <change afterPath="$PROJECT_DIR$/database_Url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,9 @@
       <workItem from="1628322424607" duration="1862000" />
       <workItem from="1628338100201" duration="3992000" />
       <workItem from="1628342122189" duration="2233000" />
-      <workItem from="1628446476089" duration="2921000" />
+      <workItem from="1628446476089" duration="3878000" />
+      <workItem from="1628505554597" duration="682000" />
+      <workItem from="1628510701315" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="requirements.txt added to project">
       <created>1628176554781</created>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628341525236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="database initialization added">
+      <created>1628452496818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628452496818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +160,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="requirements.txt added to project" />
     <MESSAGE value="book files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="book files added" />
+    <MESSAGE value="database initialization added" />
+    <option name="LAST_COMMIT_MESSAGE" value="database initialization added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Books_Project$Books_Project.coverage" NAME="Books_Project Coverage Results" MODIFIED="1627837140655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

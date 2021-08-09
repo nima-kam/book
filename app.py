@@ -3,10 +3,12 @@ from flask_restful import Api
 from flask_jwt_extended import JWTManager
 
 from Models.db import db
+import database_Url as dbu
+
 
 app = Flask(__name__)
 # 'mysql://{0}:{1}@{2}:{3}/{4}'.format(user, pass, host, port, db)
-app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql://{0}:{1}@{2}:{3}/{4}'.format(user, password, host, port, db)
+app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql://{0}:{1}@{2}:{3}/{4}'.format(dbu.user, dbu.password, dbu.host, dbu.port, dbu.DB_NAME)
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["PROPAGATE_EXCEPTIONS"] = True
 api = Api(app)
